@@ -1,0 +1,16 @@
+.singlepage{
+    display: flex;
+}
+
+
+@media only screen and (max-width:600px){
+
+    .singlepage{
+        flex: 12;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+}
